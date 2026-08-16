@@ -28,13 +28,13 @@
 
 
 # TODO 1: put the shop's name into this jar (it is text!)
-shop_name = ""
+shop_name = "The Cozy Bean"
 
 # TODO 2: put today's cup count into this jar (a whole number)
-cups_sold = 0
+cups_sold = 18
 
 # TODO 3: put the price of one cup into this jar (it has cents)
-price_per_cup = 0
+price_per_cup = 3.5
 
 print("Shop name:", shop_name)
 print("Cups sold:", cups_sold)
@@ -43,3 +43,5 @@ print("Price per cup:", price_per_cup)
 # TODO 4: print the TYPE of each jar, using type()
 #         The first one is done for you -- copy the pattern.
 print("Type of shop_name:", type(shop_name))
+print ("Type Cups sold:", type(cups_sold))
+print("Type of Price per cup:", type(price_per_cup))
